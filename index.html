@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="./css/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center text-white">Добро пожаловать на мой сайт</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/SB2.png" alt="Logo" width="65"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Переключатель навигации"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"                
+                style="color: rgb(22, 193, 22)"
+                >Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="page1.html"
+                style="color: rgb(9, 106, 9)"
+                >Моё портфолио</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="page2.html"
+                style="color: rgb(9, 106, 9)"
+                >Мои фото</a
+              >
+            </li>            
+          </ul>          
+        </div>                         
+      </div>
+    </nav>
+
+    <section class="izo">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center text-uppercase color2">Обо мне</h2>            
+          </div>
+        </div>
+        <div class="row align-items-center mb-3">
+          <div
+            class="col-lg-3 col-sm-12 mb-sm-5 mt-sm-5 text-center"
+          >
+            <img src="./img/Myphoto.jpg" alt="Моё фото" class="img-fluid" />
+          </div>
+          <div class="col-lg-9 col-sm-12">
+            <h5>Меня зовут Сергей</h5>
+            <h5>г. Нижний Новгород</h5>
+            <h5>Образование: высшее</h5>
+            <h5>
+              Ищу работу в сфере IT. Интересна данная область, поэтому
+              готов к непрерывному обучению и развитию в ней как в рабочее, так
+              и в своё свободное время
+            </h5>
+            <h5>
+              Моё резюме на hh.ru можно посмотреть
+              <a
+                href="https://nn.hh.ru/applicant/resumes/view?resume=21d6be4bff0bdf3ac00039ed1f444a42643151"
+                target="_blank"
+                style="color: green; text-decoration:none">здесь</a
+              >
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my_skill">
+      <div class="container">
+        <div class="row my-3">
+          <div class="col-12">
+            <h2 class="text-center text-uppercase color1 mb-50">Мои умения</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12 mb-3">
+            <h4 class="text-center fw-bold mt-3 mb-3">
+              Умею работать<br />с программами:
+            </h4>
+            <div class="accordion accordion-flush" id="accordion1">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading1">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse1"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse1"
+                  >
+                    Figma
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapse1"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="flush-heading1"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    См. пример работы в портфолио - макет сайта и карточки
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse2"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse2"
+                  >
+                    MySQL Workbench
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapse2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading2"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    Знаю основные запросы SQL, о нормализации таблиц, виды баз
+                    данных
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse3"
+                  >
+                    Android Studio
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapse3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading3"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    Пробовал работать в эмуляторе устройств, смотреть логи
+                    подключённого телефона в Logcat
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mb-3">
+            <h4 class="text-center fw-bold mt-3 mb-3">Также<br />изучил:</h4>
+            <div class="accordion accordion-flush" id="accordion2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading4">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse4"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse4"
+                  >
+                    Основные технические вопросы
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapse4"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="flush-heading4"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">
+                    - клиент-серверная архитектура <br />- методы запросов (GET, POST и др.) и коды ответов сервера <br />- JSON/XML, REST, gRPC <br />- жизненный цикл ПО <br />- виды, методы, уровни и принципы тестирования <br />-
+                    тестовая документация и техники тест-дизайна <br />- общие сведения о CI/CD, NoSQL, Docker <br />- Agile, Scrum, Kanban
+                    <br />- Прочитал книги С. Куликова "Тестирование программного
+                    обеспечения", Р. Савина "Тестирование dot com"
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading5">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse5"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse5"
+                  >
+                    Основы HTML, CSS, Bootstrap 5
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapse5"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading5"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">
+                    Пример работы - этот сайт
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading6">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse6"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse6"
+                  >
+                    Основы JavaScript
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapse6"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading6"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">Основы теории</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mb-3">
+            <h4 class="text-center fw-bold mt-3 mb-3">
+              Дополнительная<br />информация:
+            </h4>
+            <div class="accordion accordion-flush" id="accordion3">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading7">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse7"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse7"
+                  >
+                    Работал в «телекоме»
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapse7"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="flush-heading7"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    Имеется опыт работы с «тикетами» (заведение в системе заявок
+                    на устранение неполадок интернет-соединения), навыки
+                    взаимодействия в рабочей среде для поиска и диагностики
+                    неисправностей, а также базовые знания по сетям передачи
+                    данных (уровни OSI, HTTP / HTTPS, TCP / IP, DNS).
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading8">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse8"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse8"
+                  >
+                    Обучаем
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapse8"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading8"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    Грамотный письменный русский язык (имею опыт написания
+                    статей для вузовских журналов)<br />
+                    Усидчив и нацелен на быстрое получение опыта и знаний в
+                    данной сфере как в рамках рабочего процесса, так и в своё
+                    свободное время
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading9">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse9"
+                    aria-expanded="false"
+                    aria-controls="flush-collapse9"
+                  >
+                    Имеется всё необходимое для удалённой работы (в случае
+                    потребности)
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapse9"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-heading9"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    Ноутбук (ОС Win 11), гарнитура, интернет-соединение 100
+                    Мб/с, смартфоны на Android 13 и 9.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dopoln">
+      <div class="container my-3">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center text-uppercase color2">Дополнительно</h2>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-xl-4 col-md-6 col-sm-12 mx-auto" style="max-width: 250px">
+            <a href="./big-i1.html" style="color: green; text-decoration:none">
+              <div class="bs_circle">
+                <i class="icon-list-numbered"></i>
+              </div>
+              <h5 class="text-center">Опыт работы</h5>
+              <div class="line"></div>
+            </a>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12 mx-auto" style="max-width: 250px">
+            <a href="./big-i2.html" style="color:#136b15; text-decoration:none">
+              <div class="bs_circle">
+                <i class="icon-chart-line"></i>
+              </div>
+              <h5 class="text-center">Моё образование</h5>
+              <div class="line"></div>
+            </a>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12 mx-auto" style="max-width: 250px">
+            <a href="./big-i3.html" style="color:#136b15; text-decoration:none">
+              <div class="bs_circle">
+                <i class="icon-thumbs-up"></i>
+              </div>
+             <h5 class="text-center">Знаю программы</h5>
+             <div class="line"></div>
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <a
+              href="https://vk.com/sb130789"
+              target="_blank"
+              class="btn btn-outline-success"
+              style="margin: auto 25px;"              
+            >
+              <i class="icon-vkontakte"></i>
+            </a>
+            <a
+              href="https://github.com/Sergey13NN"
+              target="_blank"
+              class="btn btn-outline-success"
+              style="margin: auto 25px;"
+            >
+              <i class="icon-github-circled"></i>
+            </a>
+            <a
+              href="mailto:sbnn130789@mail.ru?subject=Тестирование ПО&body=Здравствуйте, Сергей! "
+              target="_blank"
+              class="btn btn-outline-success"
+              style="margin: auto 25px;"
+            >
+              <i class="icon-mail-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
